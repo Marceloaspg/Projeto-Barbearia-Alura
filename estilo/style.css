@@ -280,7 +280,8 @@ td, th {
     }
 
     .utensilios + h1 {
-        display: inline-block;
+        display: inline;
+        width: 100%;
     }
     
     .produtos li {
@@ -291,9 +292,27 @@ td, th {
         transform: scale(1);
     }
 
-    li > img, h1 {
+    li > img , h1 {
         position: relative;
         text-align: justify;
         width: 100%;
+    }
+ 
+}
+
+@media screen and (max-width: 370px) {
+    .utensilios + h1 {
+        display: inline-block;
+    }
+
+    .utensilios {
+        width: 70%;
+        float: right;
+        margin-right: 15%;
+    }
+
+    .mapa >h2 {
+        width: auto;
+        font-size: 1.5em;
     }
 }
