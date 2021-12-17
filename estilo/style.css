@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img#banner {
+    width: 100%;
+}
+
+.principal {
+    background-color: #ccc;
+    padding: 30PX;
+}
+
+.centra {
+    text-align: center;   
+}
+
+p {
+    text-align: center;
+}
+
+p#missao {
+    font-size: 20px;
+}
+
+p > em > strong {
+    color: red;
+}
+
+li.itens {
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+.beneficios {
+    background-color: #fff;
+    padding: 20px;    
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imgbeneficios {
+    width: 50%;
+}
