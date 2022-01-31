@@ -1,2 +1,2 @@
 # Projeto-Barbearia-Alura
- Projeto de barbearia
+Base de um Projeto de barbearia do curso realizado pela Alura
